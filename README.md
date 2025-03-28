@@ -39,29 +39,34 @@ This project follows a standard machine learning workflow:
 
 **Logistic Regression:**
 
-          precision    recall  f1-score   support
+Logistic Regression Report:
+              precision    recall  f1-score   support
 
-       0       ...       ...       ...       ...
-       1       ...       ...       ...       ...
+           0       0.47      0.75      0.57        92
+           1       0.56      0.27      0.36       108
 
-accuracy                           ...       ...
-macro avg       ...       ...       ...       ...
-weighted avg       ...       ...       ...       ...
-
-
-**Neural Network:**
-
-          precision    recall  f1-score   support
-
-       0       ...       ...       ...       ...
-       1       ...       ...       ...       ...
-
-accuracy                           ...       ...
-macro avg       ...       ...       ...       ...
-weighted avg       ...       ...       ...       ...
+    accuracy                           0.49       200
+   macro avg       0.51      0.51      0.47       200
+weighted avg       0.52      0.49      0.46       200
 
 
-**Note:** The actual performance metrics (precision, recall, F1-score, accuracy) will be displayed here after running the code and evaluating the models.
+Neural Network Report:
+              precision    recall  f1-score   support
+
+           0       0.48      0.55      0.51        92
+           1       0.56      0.48      0.52       108
+
+    accuracy                           0.52       200
+   macro avg       0.52      0.52      0.51       200
+weighted avg       0.52      0.52      0.52       200
+
+Text(0.5, 1.0, 'Logistic Regression Confusion Matrix')
+
+
+Lead Conversion Probability: 46.44%
+
+
+**Note:** The actual performance metrics (precision, recall, F1-score, accuracy) will be displayed after running the code and evaluating the models.
 
 ## Future Improvement Suggestions
 
